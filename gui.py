@@ -7,6 +7,11 @@ root = tk.Tk()
 root.configure(background='#1b1b1b')
 root.geometry("600x300")
 
+#this is the part u should look at niscal
+def Performanceboost():
+    os.system("git clone https://github.com/W4RH4WK/Debloat-Windows-10.git")
+    #the rest of the script will be written in performance
+    os.system("./Performance")
 def Update():
     os.system("git clone https://github.com/p978/rip-off.git")
     os.system("cd rip-off")
