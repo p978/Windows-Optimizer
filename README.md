@@ -2,7 +2,7 @@
 
 this has a bad gui
 
-**Changelogs**
+# Change logs
 
 Hopefully fixed some bugs
 
