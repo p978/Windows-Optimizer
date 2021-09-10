@@ -9,7 +9,7 @@ root.geometry("600x300")
 
 def Update():
     os.system("git clone https://github.com/p978/rip-off.git")
-    os.system("cd ripoff")
+    os.system("cd rip-off")
 def Taskmanager():
     os.system("taskmgr")
 def logout():
@@ -41,6 +41,14 @@ OpenTaskManager = tk.Button(root,
                          bg="#263D42",
                          command=Taskmanager)
 OpenTaskManager.place(x=1, y=100)
+
+Update = tk.Button(root, 
+                width=10,
+                text="Update",
+                bg="#263d42",
+                command=Update)
+Update.place(x=510, y=100)
+
 
 
 
