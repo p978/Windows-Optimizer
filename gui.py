@@ -7,6 +7,9 @@ root = tk.Tk()
 root.configure(background='#1b1b1b')
 root.geometry("600x300")
 
+def Update():
+    os.system("git clone https://github.com/p978/rip-off.git")
+    os.system("cd ripoff")
 def Taskmanager():
     os.system("taskmgr")
 def logout():
