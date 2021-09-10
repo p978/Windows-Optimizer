@@ -6,4 +6,4 @@ this has a bad gui
 
 Hopefully fixed some bugs
 
-added an update function (only for linux right now)
+added an update function (need to have git)
