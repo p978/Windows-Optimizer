@@ -1,8 +1,13 @@
 @echo off
-echo WARINIG THIS MAY BREAK YOUR PC IF YOU ARE NOT AT THE LATEST VERSION OF WINDOWS DO YOU WISH TO CONTINIUE
+echo WARNIG THIS MAY BREAK YOUR PC IF YOU ARE NOT AT THE LATEST VERSION OF WINDOWS DO YOU WISH TO CONTINIUE(y/n)
+
+set /p Input=Enter Yes or No:
+If /I "%Input%"=="y" goto yes
+goto no
+:yes
 wmic.exe /Namespace:\\root\default Path SystemRestore Call CreateRestorePoint "<RestorePointName>", 100, 7
 echo A restore point has been created 
-cd Debloat Windows 10
+cd Debloat-Windows-10
 cd scripts
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 ls -Recurse *.ps*1 | Unblock-File
@@ -14,4 +19,7 @@ ls -Recurse *.ps*1 | Unblock-File
 ./optimize-windows-update.ps1
 ./remove-default-apps.ps1
 ./remove-onedrive.ps1
+echo Done!
+:no
+exit
 cmd /k
