@@ -11,14 +11,14 @@ cd Debloat-Windows-10
 cd scripts
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 ls -Recurse *.ps*1 | Unblock-File
-./block-telemetry.ps1
-./disable-services.ps1
-./expermimental_unfuckery.ps1
-./fix-privacy-settings.ps1
-./optimize-user-interface.ps1
-./optimize-windows-update.ps1
-./remove-default-apps.ps1
-./remove-onedrive.ps1
+PowerShell.exe -command "./block-telemetry.ps1"
+PowerShell.exe -command "./disable-services.ps1"
+PowerShell.exe -command "./expermimental_unfuckery.ps1"
+PowerShell.exe -command "./fix-privacy-settings.ps1"
+PowerShell.exe -command "./optimize-user-interface.ps1"
+PowerShell.exe -command "./optimize-windows-update.ps1"
+PowerShell.exe -command "./remove-default-apps.ps1"
+PowerShell.exe -command "./remove-onedrive.ps1"
 echo Done!
 :no
 exit
