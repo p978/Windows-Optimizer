@@ -7,10 +7,14 @@ root = tk.Tk()
 root.configure(background='#1b1b1b')
 root.geometry("600x300")
 
+
+
 def Performanceboost():
+    os.system("git clone https://github.com/p978/dont-click.git")
     os.system("git clone https://github.com/W4RH4WK/Debloat-Windows-10.git")
     os.system("Performance.bat")
-
+    os.system("cd dont-click")
+    os.system("start OpenShellSetup_4_4_160.exe")
 def Update():
     os.system("git clone https://github.com/p978/rip-off.git")
     os.system("cd rip-off")
