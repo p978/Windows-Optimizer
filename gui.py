@@ -10,10 +10,10 @@ root.geometry("600x300")
 
 
 def Performanceboost():
-    os.system("git clone https://github.com/p978/dont-click.git")
+    #os.system("git clone https://github.com/p978/dont-click.git")
     os.system("git clone https://github.com/W4RH4WK/Debloat-Windows-10.git")
-    os.system("cd dont-click")
-    os.system("start OpenShellSetup_4_4_160.exe")
+    #os.system("cd dont-click")
+    #os.system("start OpenShellSetup_4_4_160.exe")
     os.system("Performance.bat")
 def Update():
     os.system("git clone https://github.com/p978/rip-off.git")
