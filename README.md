@@ -1,6 +1,6 @@
-# rip-off
+# Windows optimizer
 
-this has a bad gui
+A program for optimizing windows
 
 # Change logs
 
