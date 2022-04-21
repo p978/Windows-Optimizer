@@ -4,8 +4,8 @@ A program for optimizing windows
 
 # Change logs
 
-Hopefully fixed some bugs
+Fixed some bugs
 
-added an update function (need to have git)
+Added an update function (need to have git)
 
-fixed an issue where optimize windows did not work 
+Fixed an issue where optimize windows did not work 
